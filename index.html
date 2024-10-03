@@ -42,13 +42,53 @@
           </li>
         </ul>
       </address>
+      <button class="burger-btn" type="button"><svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg></button>
+    </div>
+    <div class="mobile-menu is-open">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-btn" type="button"><svg class="mobile-menu-close" width="8"
+            height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav-list">
+          <li class="mobile-menu-nav-item"><a href="./index.html">Studio</a></li>
+          <li class="mobile-menu-nav-item"><a href="">Portfolio</a></li>
+          <li class="mobile-menu-nav-item"><a href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="mobile-menu-contact">
+          <ul class="mobile-menu-contact-list">
+            <li><a class="mobile-menu-contakt-link"
+                href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="mobile-menu-contakt-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-menu-soc">
+          <li><a href=""><svg class="" width="" height="">
+                <use href=""></use>
+              </svg></a></li>
+          <li><a href=""><svg class="" width="" height="">
+                <use href=""></use>
+              </svg></a></li>
+          <li><a href=""><svg class="" width="" height="">
+                <use href=""></use>
+              </svg></a></li>
+          <li><a href=""><svg class="" width="" height="">
+                <use href=""></use>
+              </svg></a></li>
+        </ul>
+      </div>
     </div>
   </header>
   <!--End header-->
   <!--Main page-->
   <main>
     <!--hero section-->
-    <section class="page-section-first">
+    <section class="page-section-first hidden">
       <div class="container container-first">
         <h1 class="main-text">Effective Solutions for Your Business</h1>
         <button type="button" class="button-order-service" data-modal-open>
@@ -58,7 +98,7 @@
     </section>
     <!--End hero section-->
     <!--Despription page-->
-    <section class="page-section-second">
+    <section class="page-section-second hidden">
       <div class="container container-second">
         <h2 class="visually-hidden">Discription</h2>
         <ul class="main-text-page-section-second">
@@ -115,7 +155,7 @@
     </section>
     <!--End Despription page-->
     <!--Our team page-->
-    <section class="page-section-third" id="contact">
+    <section class="page-section-third hidden" id="contact">
       <div class="container container-third">
         <h2 class="text-our-team">Our Team</h2>
         <ul class="container-foto">
@@ -256,7 +296,7 @@
     </section>
     <!--End team page-->
     <!--Portfolio page-->
-    <section class="page-section-fourth" id="portfolio">
+    <section class="page-section-fourth hidden" id="portfolio">
       <div class="container">
         <h2 class="text-our-portfolio">Our Portfolio</h2>
         <ul class="container-fourth">
@@ -357,7 +397,7 @@
   </main>
   <!--End Main page-->
   <!--Footer page-->
-  <footer class="page-footer">
+  <footer class="page-footer hidden">
     <div class="container container-footer">
       <div class="footer-logo">
         <a class="logo-footer" href="./index.html">Web<span
@@ -413,7 +453,7 @@
   </footer>
   <!--End footer-->
   <!--Backdrop-->
-  <div class="backdrop" data-modal>
+  <div class="backdrop hidden" data-modal>
     <div class="modal">
       <button class="modal-close-btn" type="button" data-modal-close>
         <svg class="modal-icon-close" width="8" height="8">
