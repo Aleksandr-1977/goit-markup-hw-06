@@ -560,7 +560,7 @@ img {
   background-color: #31d0aa;
 }
 /*-----------Foooter---------------------------------------------*/
-/*--Backdrop--*/
+/*=====Backdrop=====*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -777,4 +777,4 @@ img {
   border-color: #404bbf;
 }
 
-/*--/Backdrop--*/
+/*=====/Backdrop=====*/
