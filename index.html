@@ -57,35 +57,42 @@
         </button>
         <nav class="mobile-menu-nav-list">
           <ul>
-            <li class="mobile-menu-nav-item"><a href="./index.html">Studio</a></li>
+            <li class="mobile-menu-nav-item"><a href="./index.html"><span
+                  class="text-studio">Studio</span></a></li>
             <li class="mobile-menu-nav-item"><a href="">Portfolio</a></li>
             <li class="mobile-menu-nav-item"><a href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="mobile-menu-contact">
           <ul class="mobile-menu-contact-list">
-            <li><a class="mobile-menu-contakt-link"
+            <li><a class="mobile-menu-contact-email"
                 href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="mobile-menu-contakt-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <li><a class="mobile-menu-contact-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
-        <!-- <div class="mobile-menu-soc">
         <ul class="mobile-menu-soc-list">
-          <li><a href=""><svg class="" width="" height="">
-                <use href=""></use>
+          <li class="
+            mobile-menu-soc-items"><a class="mobile-menu-soc-link" href=""><svg
+                class="mobile-menu-soc-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
               </svg></a></li>
-          <li><a href=""><svg class="" width="" height="">
-                <use href=""></use>
+          <li class="
+            mobile-menu-soc-items"><a class="mobile-menu-soc-link" href=""><svg
+                class="mobile-menu-soc-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
               </svg></a></li>
-          <li><a href=""><svg class="" width="" height="">
-                <use href=""></use>
+          <li class="
+            mobile-menu-soc-items"><a class="mobile-menu-soc-link" href=""><svg
+                class="mobile-menu-soc-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
               </svg></a></li>
-          <li><a href=""><svg class="" width="" height="">
-                <use href=""></use>
+          <li class="
+            mobile-menu-soc-items"><a class="mobile-menu-soc-link" href=""><svg
+                class="mobile-menu-soc-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
               </svg></a></li>
         </ul>
-        </div> -->
       </div>
     </div>
   </header>
@@ -93,7 +100,7 @@
   <!--Main page-->
   <main>
     <!--hero section-->
-    <section class="page-section-first hidden">
+    <section class="page-section-first">
       <div class="container container-first">
         <h1 class="main-text">Effective Solutions for Your Business</h1>
         <button type="button" class="button-order-service" data-modal-open>
@@ -103,7 +110,7 @@
     </section>
     <!--End hero section-->
     <!--Despription page-->
-    <section class="page-section-second hidden">
+    <section class="page-section-second">
       <div class="container container-second">
         <h2 class="visually-hidden">Discription</h2>
         <ul class="main-text-page-section-second">
@@ -458,7 +465,7 @@
   </footer>
   <!--End footer-->
   <!--Backdrop-->
-  <div class="backdrop hidden" data-modal>
+  <div class="backdrop" data-modal>
     <div class="modal">
       <button class="modal-close-btn" type="button" data-modal-close>
         <svg class="modal-icon-close" width="8" height="8">
@@ -511,8 +518,8 @@
                 width="10" height="8">
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
-            </span>I accept the terms and conditions of the<a href=""
-              class="feedback-form-checkbox-link">Privacy Policy</a></label>
+            </span>I accept the terms and conditions of
+            the<a href="" class="feedback-form-checkbox-link"> Privacy Policy</a></label>
         </div>
         <button class="modal-button-send" type="submit">Send</button>
       </form>
