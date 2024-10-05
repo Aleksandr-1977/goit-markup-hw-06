@@ -875,6 +875,9 @@ img {
     flex-wrap: nowrap;
     justify-content: left;
   }
+  .footer-subscribe-input {
+    width: 264px;
+  }
   .footer-subscribe-label {
     margin-bottom: 0;
     margin-right: 24px;
