@@ -244,16 +244,16 @@ img {
 .mobile-menu-contact {
   margin-bottom: 48px;
 }
-.mobile-menu-contact-email {
+.mobile-menu-contact-tel {
   display: block;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #4d5ae5;
   margin-bottom: 24px;
+  color: #4d5ae5;
 }
-.mobile-menu-contact-tel {
+.mobile-menu-contact-email {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -517,6 +517,7 @@ img {
 .container-foto {
   display: flex;
   flex-direction: column;
+  gap: 72px;
 }
 .foto {
   border-radius: 0 0 4px 4px;
@@ -581,8 +582,8 @@ img {
 }
 @media screen and (min-width: 1158px) {
   .container-third {
-    max-width: 1440px;
-    padding: 0 156px;
+    max-width: 1158px;
+    padding: 0 15px;
   }
   .page-section-third {
     padding: 120px 0;
@@ -602,9 +603,12 @@ img {
 }
 /*=============/Section 3=====================*/
 /*==============Section 4=====================*/
+.page-section-main-fourth {
+  padding: 96px 16px;
+}
 .page-section-fourth {
   max-width: 320px;
-  padding: 96px 16px;
+
   margin: 0 auto;
 }
 .text-our-portfolio {
@@ -694,9 +698,11 @@ img {
   }
 }
 @media screen and (min-width: 1158px) {
+  .page-section-main-fourth {
+    padding: 120px 0;
+  }
   .page-section-fourth {
     min-width: 1128px;
-    padding: 120px 0;
   }
   .container-fourth {
     row-gap: 48px;
@@ -716,9 +722,10 @@ img {
 /*================Footer======================*/
 .page-footer {
   background: #2e2f42;
+  padding: 96px 0px;
 }
 .container-footer {
-  padding: 96px 16px;
+  padding: 0px 16px;
 }
 .logo-footer {
   display: inline-block;
@@ -851,7 +858,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .container-footer {
-    padding: 96px 108px;
+    padding: 0px 108px;
   }
   .footer-tablet {
     display: flex;
@@ -884,10 +891,14 @@ img {
   }
 }
 @media screen and (min-width: 1158px) {
+  .page-footer {
+    background: #2e2f42;
+    padding: 100px 0px;
+  }
   .container-footer {
     display: flex;
     align-items: baseline;
-    padding: 100px 0;
+    padding: 0;
   }
   .footer-logo {
     margin-right: 120px;
@@ -897,6 +908,9 @@ img {
   }
   .footer-logo {
     margin-bottom: 0;
+  }
+  .footer-subscribe {
+    margin-left: auto;
   }
 }
 /*===============/Footer======================*/
